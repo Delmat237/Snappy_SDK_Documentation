@@ -70,7 +70,7 @@ export default function Home() {
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
             <Button size="lg" className="text-lg px-8 py-4" asChild>
-              <Link href="/docs/getting-started">
+              <Link href="/docs">
                 <Rocket className="w-5 h-5 mr-2" />
                 Commencer
               </Link>
@@ -302,14 +302,19 @@ export default function Home() {
             </div>
             <div className="bg-gray-900 rounded-lg p-4 font-mono text-sm text-green-400 mb-6">
               <div className="mb-2"># Installation du SDK</div>
-              <div className="text-white">npm install yow-talk-sdk</div>
+              <div className="text-white">git clone --branch v2-sdk --single-branch https://github.com/PacomeKFP/snappy.git
+copy src/lib in your project</div>
               <div className="mt-4 mb-2 text-green-400"># Configuration</div>
-              <div className="text-white">import &#123; SnappyHTTPClient, SnappySocketClient &#125; from &apos;yow-talk-sdk&apos;</div>
+              <div className="text-white">
+                import &#123;SnappyHTTPClient  &#125;  from &apos;@/lib/SnappyHTTPClient&apos;;
+
+                import &#123;SnappySocketClient &#125; from &apos;@/lib/SnappySocketClient&apos;; 
+              </div>
             </div>
             
             <div className="flex flex-col sm:flex-row gap-4">
               <Button className="flex-1" asChild>
-                <Link href="/docs/getting-started">
+                <Link href="/docs">
                   <BookOpen className="w-4 h-4 mr-2" />
                   Guide complet
                   <ArrowRight className="w-4 h-4 ml-2" />
@@ -346,7 +351,7 @@ export default function Home() {
             <div>
               <h4 className="font-semibold text-gray-900 mb-4">Documentation</h4>
               <ul className="space-y-2 text-gray-600">
-                <li><Link href="/docs/getting-started" className="hover:text-blue-600 transition-colors">Guide de démarrage</Link></li>
+                <li><Link href="/docs" className="hover:text-blue-600 transition-colors">Guide de démarrage</Link></li>
                 <li><Link href="/docs/api-reference" className="hover:text-blue-600 transition-colors">Référence API</Link></li>
                 <li><Link href="/docs/examples" className="hover:text-blue-600 transition-colors">Exemples</Link></li>
                 <li><Link href="/docs/types" className="hover:text-blue-600 transition-colors">Types TypeScript</Link></li>
