@@ -70,7 +70,7 @@ export default function Home() {
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
             <Button size="lg" className="text-lg px-8 py-4" asChild>
-              <Link href="/docs">
+              <Link href="/docs/getting-started">
                 <Rocket className="w-5 h-5 mr-2" />
                 Commencer
               </Link>
@@ -314,7 +314,7 @@ copy src/lib in your project</div>
             
             <div className="flex flex-col sm:flex-row gap-4">
               <Button className="flex-1" asChild>
-                <Link href="/docs">
+                <Link href="/docs/getting-started">
                   <BookOpen className="w-4 h-4 mr-2" />
                   Guide complet
                   <ArrowRight className="w-4 h-4 ml-2" />

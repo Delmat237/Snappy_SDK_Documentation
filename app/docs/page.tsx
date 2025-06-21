@@ -76,7 +76,7 @@ export default function DocsHome() {
           <CardContent>
             <Button variant="outline" asChild className="w-full">
               <Link href="/docs/api/auth">
-                Explorer l'API
+                Explorer l&#39;API
                 <ArrowRight className="w-4 h-4 ml-2" />
               </Link>
             </Button>
@@ -90,7 +90,7 @@ export default function DocsHome() {
             </div>
             <CardTitle>Exemples</CardTitle>
             <CardDescription>
-              Exemples pratiques pour tous les cas d'usage
+              Exemples pratiques pour tous les cas d&#39;usage
             </CardDescription>
           </CardHeader>
           <CardContent>
@@ -134,7 +134,7 @@ export default function DocsHome() {
             </CardHeader>
             <CardContent>
               <p className="text-sm text-gray-600 mb-4">
-                Gère toutes les requêtes HTTP vers l'API, l'authentification, et la gestion des tokens.
+                Gère toutes les requêtes HTTP vers l&#39;API, l&#39;authentification, et la gestion des tokens.
               </p>
               <ul className="space-y-2 text-sm text-gray-600">
                 <li className="flex items-center">
@@ -227,7 +227,7 @@ export default function DocsHome() {
                 </div>
                 <div>
                   <CardTitle>Gestion des utilisateurs</CardTitle>
-                  <CardDescription>Système complet d'utilisateurs</CardDescription>
+                  <CardDescription>Système complet d&#39;utilisateurs</CardDescription>
                 </div>
               </div>
             </CardHeader>
@@ -319,7 +319,7 @@ export default function DocsHome() {
       <div className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-2xl p-8">
         <h2 className="text-2xl font-bold text-gray-900 mb-4">Prochaines étapes</h2>
         <p className="text-gray-600 mb-6">
-          Choisissez votre parcours selon votre niveau d'expérience avec le SDK.
+          Choisissez votre parcours selon votre niveau d&#39;expérience avec le SDK.
         </p>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -347,7 +347,7 @@ export default function DocsHome() {
 
       {/* Community */}
       <div className="border rounded-lg p-6 bg-white">
-        <h3 className="text-lg font-semibold text-gray-900 mb-4">Besoin d'aide ?</h3>
+        <h3 className="text-lg font-semibold text-gray-900 mb-4">Besoin d&#39;aide ?</h3>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           <Button variant="outline" asChild>
             <Link href="/docs/examples/auth">

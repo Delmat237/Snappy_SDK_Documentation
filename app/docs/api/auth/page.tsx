@@ -77,7 +77,7 @@ const currentUser = httpClient.getUser();`;
           <h1 className="text-4xl font-bold text-gray-900">API Authentification</h1>
         </div>
         <p className="text-xl text-gray-600 max-w-3xl">
-          Système d'authentification complet avec support des organisations et utilisateurs. 
+          Système d&apos;authentification complet avec support des organisations et utilisateurs. 
           Gestion automatique des tokens JWT avec persistance locale.
         </p>
         <div className="flex items-center space-x-4">
@@ -214,7 +214,7 @@ const currentUser = httpClient.getUser();`;
                 <Alert>
                   <User className="h-4 w-4 text-blue-600" />
                   <AlertDescription>
-                    L'utilisateur authentifié est automatiquement stocké et accessible via <code>httpClient.getUser()</code>
+                    L&apos;utilisateur authentifié est automatiquement stocké et accessible via <code>httpClient.getUser()</code>
                   </AlertDescription>
                 </Alert>
               </CardContent>
@@ -316,7 +316,7 @@ const currentUser = httpClient.getUser();`;
                 <Alert className="border-orange-200 bg-orange-50">
                   <AlertCircle className="h-4 w-4 text-orange-600" />
                   <AlertDescription className="text-orange-800">
-                    Ces méthodes sont principalement utiles pour des cas d'usage avancés. 
+                    Ces méthodes sont principalement utiles pour des cas d&apos;usage avancés. 
                     La gestion automatique des tokens est recommandée dans la plupart des cas.
                   </AlertDescription>
                 </Alert>
@@ -334,7 +334,7 @@ const currentUser = httpClient.getUser();`;
             Gestion des erreurs
           </CardTitle>
           <CardDescription>
-            Comment gérer les erreurs d'authentification
+            Comment gérer les erreurs d&apos;authentification
           </CardDescription>
         </CardHeader>
         <CardContent className="space-y-4">
