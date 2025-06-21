@@ -76,7 +76,7 @@ export default function Home() {
               </Link>
             </Button>
             <Button variant="outline" size="lg" className="text-lg px-8 py-4" asChild>
-              <Link href="/docs/api-reference">
+              <Link href="/docs/api/auth">
                 <Code className="w-5 h-5 mr-2" />
                 Référence API
               </Link>
@@ -321,7 +321,7 @@ copy src/lib in your project</div>
                 </Link>
               </Button>
               <Button variant="outline" className="flex-1" asChild>
-                <Link href="/docs/examples">
+                <Link href="/docs/examples/auth">
                   <Code className="w-4 h-4 mr-2" />
                   Voir les exemples
                 </Link>
