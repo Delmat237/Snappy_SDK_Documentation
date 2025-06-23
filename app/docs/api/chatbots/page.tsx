@@ -32,7 +32,7 @@ export default function ChatbotsApiPage() {
 const formData = new FormData();
 formData.append('name', 'Assistant IA');
 formData.append('description', 'Chatbot pour le support client');
-formData.append('model', 'gpt-4');
+formData.append('model', 'MISTRAL');
 formData.append('systemPrompt', 'Tu es un assistant IA serviable...');
 formData.append('projectId', 'project-123');
 formData.append('avatar', avatarFile); // Optionnel
@@ -55,7 +55,7 @@ console.log('Chatbots du projet:', projectChatbots);`;
 const models = await httpClient.getAvailableModels();
 
 console.log('Modèles disponibles:', models);
-// Exemple: ['gpt-4', 'gpt-3.5-turbo', 'claude-3', 'llama-2']`;
+// Exemple: ['MISTRAL', 'GEMINI']`;
 
   return (
     <div className="space-y-8">
@@ -70,11 +70,10 @@ console.log('Modèles disponibles:', models);
           Intégration transparente avec votre système de chat existant.
         </p>
         <div className="flex items-center space-x-4">
-          <Badge variant="secondary">Chatbots IA</Badge>
+      
             <Badge variant="outline">MISTRAL</Badge>
             <Badge variant="outline">GEMINI</Badge>
-          <Badge variant="outline">GPT-4</Badge>
-          <Badge variant="outline">Claude</Badge>
+     
           <Badge variant="outline">Interface UI</Badge>
         </div>
       </div>

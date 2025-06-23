@@ -225,7 +225,7 @@ await authService.loginUser(email, password);`}
                       <code>{`// Dans votre composant
 const { user, login, logout, isAuthenticated } = useAuth();
 
-// Dans votre App.js
+// Dans votre _Layout.tsx
 <AuthProvider>
   <YourApp />
 </AuthProvider>`}</code>
