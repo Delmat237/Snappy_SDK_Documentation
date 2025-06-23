@@ -281,73 +281,7 @@ await chatService.initialize();`}
         </Tabs>
       </div>
 
-      {/* Group Chat Example */}
-      <Card className="border-0 shadow-lg">
-        <CardHeader>
-          <div className="flex items-center space-x-3">
-            <div className="w-10 h-10 bg-yellow-100 rounded-lg flex items-center justify-center">
-              <Users className="w-5 h-5 text-yellow-600" />
-            </div>
-            <div>
-              <CardTitle>Chat de groupe</CardTitle>
-              <CardDescription>Extension pour les conversations de groupe avec gestion des participants</CardDescription>
-            </div>
-          </div>
-        </CardHeader>
-        <CardContent className="space-y-4">
-          <div className="bg-gray-900 rounded-lg p-4 relative">
-            <Button
-              variant="ghost"
-              size="sm"
-              className="absolute top-2 right-2 text-gray-400 hover:text-white"
-              onClick={() => copyToClipboard(groupChatExample, 'group')}
-            >
-              {copiedCode === 'group' ? (
-                <CheckCircle className="w-4 h-4" />
-              ) : (
-                <Copy className="w-4 h-4" />
-              )}
-            </Button>
-            <pre className="text-sm text-gray-300 overflow-x-auto">
-              <code>{groupChatExample}</code>
-            </pre>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div className="space-y-3">
-              <h4 className="font-semibold text-gray-900">Fonctionnalités groupe</h4>
-              <ul className="space-y-2 text-sm text-gray-600">
-                <li className="flex items-center">
-                  <CheckCircle className="w-4 h-4 text-green-500 mr-2" />
-                  Création de groupes
-                </li>
-                <li className="flex items-center">
-                  <CheckCircle className="w-4 h-4 text-green-500 mr-2" />
-                  Ajout/suppression de participants
-                </li>
-                <li className="flex items-center">
-                  <CheckCircle className="w-4 h-4 text-green-500 mr-2" />
-                  Messages avec nom de l&apos;expéditeur
-                </li>
-                <li className="flex items-center">
-                  <CheckCircle className="w-4 h-4 text-green-500 mr-2" />
-                  Événements de groupe
-                </li>
-              </ul>
-            </div>
-            
-            <div className="space-y-3">
-              <h4 className="font-semibold text-gray-900">Événements WebSocket</h4>
-              <ul className="space-y-2 text-sm text-gray-600">
-                <li>• <code>onParticipantJoined</code> - Nouveau membre</li>
-                <li>• <code>onParticipantLeft</code> - Membre parti</li>
-                <li>• <code>onGroupMessageReceived</code> - Message de groupe</li>
-                <li>• <code>onGroupUpdated</code> - Infos du groupe modifiées</li>
-              </ul>
-            </div>
-          </div>
-        </CardContent>
-      </Card>
+      
 
       {/* Integration Guide */}
       <Card className="border-0 shadow-lg bg-gradient-to-r from-blue-50 to-purple-50">
@@ -391,11 +325,11 @@ await chatService.initialize();`}
 ├── services/
 │   ├── ChatService.js
 │   ├── MediaChatService.js
-│   └── GroupChatService.js
+│ 
 ├── components/
 │   ├── ChatScreen.js
 │   ├── ChatListScreen.js
-│   └── GroupChatScreen.js
+│   
 ├── utils/
 │   ├── messageUtils.js
 │   └── mediaUtils.js
