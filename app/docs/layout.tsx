@@ -59,9 +59,6 @@ const navigation = [
     title: 'Types & DTOs',
     items: [
       { title: 'Core Types', href: '/docs/types/core', icon: Code },
-      { title: 'Auth DTOs', href: '/docs/types/auth', icon: Shield },
-      { title: 'User DTOs', href: '/docs/types/users', icon: Users },
-      { title: 'Chat DTOs', href: '/docs/types/chat', icon: MessageSquare },
     ],
   },
   {
